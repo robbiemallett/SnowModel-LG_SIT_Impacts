@@ -22,10 +22,10 @@ Finally all the monthly data for each year are aggregated into annual netcdf fil
 - Make monthly mW99 2002-2018
 
 To make mW99 you first need to make W99. This is done using the quadratic coefficients from Warren et al., 1999 (J. Clim).
-These coefficients are given in Warren_climatology.xlsx, and can be projected onto coordinates of your choosing using W99_Gridder.ipynb
+These coefficients are given in Warren_climatology.xlsx, and can be projected onto coordinates of your choosing using W99/W99_Gridder.ipynb
 W99 is then saved as a pickle file (e.g. W99_361.p for the analysis in this paper)
 Once you have the gridded W99 data, all you need to make mW99 is to combine it with the ice type data.
-This is done in mW99_maker.ipynb. Annual netcdf files of mW99 are made using xarray
+This is done in W99/mW99_maker.ipynb. Annual netcdf files of mW99 are made using xarray
 
 - Download daily SnowModel-LG data and average to monthly
 
@@ -50,7 +50,7 @@ Process these into monthly mean files with Nesosim_monthly_processor.ipynb
 
 - Calculate thickness components from the snow data sets and the radar freeboard data
 
-This is done with code.processors/Calculate_thickness_components.ipynb and a bunch of helper functions from custom_tools that call the relevant data
+This is done with code/processors/Calculate_thickness_components.ipynb and a bunch of helper functions from custom_tools that call the relevant data
 This makes annual netcdf files with the SIT components (snow and RF) for each month.
 
 ## Overview of steps to reproduce the main figures
