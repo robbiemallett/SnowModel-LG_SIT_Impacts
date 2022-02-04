@@ -11,9 +11,9 @@ This repository contains all the code necessary for replication of Mallett et al
 - Download daily ice-type data, average to monthly and regrid
 
 This data is downloaded at daily time resolution from the Copernicus Data Store using a python script. 
-The downloader script is available in code/processors/Download_Ice_Type_Data.ipynb
+The downloader script is available in processors/Download_Ice_Type_Data.ipynb
 This produces one giant folder with loads of files.
-The next steps of the analysis are done using code/ice_type/cds_daily_to_monthly_and_regrid.ipynb
+The next steps of the analysis are done using ice_type/cds_daily_to_monthly_and_regrid.ipynb
 Here the files are dispatched to an individual folder structure with a folder for each month of each year
 The daily files for each month are then stacked and averaged using the command line tool cdo, which is called from within the notebook. 
 This is what the p=subprocess.Popen() call does. Spicy!
@@ -50,7 +50,7 @@ Process these into monthly mean files with Nesosim_monthly_processor.ipynb
 
 - Calculate thickness components from the snow data sets and the radar freeboard data
 
-This is done with code/processors/Calculate_thickness_components.ipynb and a bunch of helper functions from custom_tools that call the relevant data
+This is done with processors/Calculate_thickness_components.ipynb and a bunch of helper functions from custom_tools that call the relevant data
 This makes annual netcdf files with the SIT components (snow and RF) for each month.
 
 ## Overview of steps to reproduce the main figures
