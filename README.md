@@ -4,6 +4,8 @@
 
 This repository contains all the code necessary for replication of Mallett et al. (2021).
 
+*Mallett, Robbie DC, et al. "Faster decline and higher variability in the sea ice thickness of the marginal Arctic seas when accounting for dynamic snow cover." The Cryosphere 15.5 (2021): 2429-2450.*
+
 ## Overview of steps to reproduce the sea ice thickness data
 
 - Download daily ice-type data, average to monthly and regrid
