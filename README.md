@@ -81,7 +81,7 @@ This makes annual netcdf files with the SIT components (snow and RF) for each mo
 
 **Figure S3**: Difference in snow depth in SnowModel-LG when driven by ERA5 and Merra2 reanalysis data. Made using two notebooks: Compare_SM_reanalysis_difference1/2.ipynb
 
-**Figures S4 & S5**:: Basinwide trends in first year ice extent as a fraction of total extent and mW99 SWE fields from 2003-2018 are made using ice_type_analysis_and_testing.ipynb
+**Figures S4 & S5**:: Basinwide trends in first year ice extent as a fraction of total extent and mW99 SWE fields from 2003-2018 are made using Ice_type_analysis_and_testing.ipynb
 
 **Figure S6 to S12**: made using Regional_W99_vs_SMv2.ipynb
 
