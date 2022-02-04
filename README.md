@@ -55,63 +55,34 @@ This makes annual netcdf files with the SIT components (snow and RF) for each mo
 
 **Figure 1**: The regions of the Arctic Ocean are visualised using Fig_mask_map.ipynb
 
-**Figure 2**: 
+**Figure 2**: The drift-tracks and sampling of the NP drifting stations in the different regions are plotted in processors/Analyse_drift_tracks.ipynb
 
-**Figure 3**
+**Figures 3, 4 & 5** are made using SM_Climatology.ipynb
 
-**Figure 4**
+**Figure 6** is made using Regional_W99_vs_SMv2.ipynb (search for the function ```snow_contribution_timeseries_limited```)
 
-**Figure 5**
+**Figure 7** is made using the above notebook. Search for the function ```plot_radar_snow_correlations```
 
-**Figure 6**
+**Figure 8** is made using the above notebook - search for the function ```abs_var_bar``` (part a) and ```rel_var_bar``` (part b).
 
-**Figure 7**
+**Figure 9** As above: ```abs_var_summary``` and ```rel_var_summary```
 
-**Figure 8**
+**Figure 10** As above: search for the ```timeseries``` function.
 
-**Figure 9**
-
-**Figure 10**
-
-**Figure 11**
+**Figure 11** Same as above. Search ```abs_trends_summary``` (part a) and ```rel_trends_summary``` (part b).
 
 ## Overview of steps to reproduce the supplementary figures
 
-**Figure S1**: Value of the propagation factor used to convert radar freeboard to ice freeboard, plotted as a function of snow density
+**Figure S1**: Value of the propagation factor used to convert radar freeboard to ice freeboard, plotted as a function of snow density. This is made using Fig_linear_propagation.ipynb.
 
-**Figure S2**: The number of valid, 25×25 km radar-freeboard grid cells in each region for each month
+**Figure S2**: The number of valid, 25×25 km radar-freeboard grid cells in each region for each month. Made using Regional_W99_vs_SMv2.ipynb.
 
-**Figure S3**: Difference in snow depth in SnowModel-LG when driven by ERA5 and Merra2 reanalysis data 
+**Figure S3**: Difference in snow depth in SnowModel-LG when driven by ERA5 and Merra2 reanalysis data. Made using two notebooks: Compare_SM_reanalysis_difference1/2.ipynb
 
-**Figure S4**: Basinwide trends in first year ice extent as a fraction of total extent from 2003-2018
+**Figures S4 & S5**:: Basinwide trends in first year ice extent as a fraction of total extent and mW99 SWE fields from 2003-2018 are made using ice_type_analysis_and_testing.ipynb
 
-**Figure S5**: Basinwide trends in mW99 SWE fields from 2003-2018
+**Figure S6 to S12**: made using Regional_W99_vs_SMv2.ipynb
 
-**Figure S6**: Detrended timeseries of spatially averaged snow contributions to sea ice thickness by region from W99 and
-SnowModel-LG
+**Figure S13** made using SM_Climatology.ipynb
 
-**Figure S7** Same as S6 but over just first year ice
-
-**Figure S8** Same as S6 but over just multi-year ice
-
-**Figure S9**
-
-**Figure S10**
-
-**Figure S11**
-
-**Figure S12**
-
-**Figure S13**
-
-**Figure S14**
-
-**Figure S15**
-
-**Figure S16**
-
-**Figure S17**
-
-**Figure S18**
-
-**Figure S19**
+**Figure S14 to S19**: made using Regional_W99_vs_SMv2.ipynb
