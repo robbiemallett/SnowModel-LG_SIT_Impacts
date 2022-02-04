@@ -53,9 +53,9 @@ This makes annual netcdf files with the SIT components (snow and RF) for each mo
 
 ## Overview of steps to reproduce the main figures
 
-**Figure 1**: The regions of the Arctic Ocean are defined using XXX.ipynb
+**Figure 1**: The regions of the Arctic Ocean are visualised using Fig_mask_map.ipynb
 
-**Figure 2**
+**Figure 2**: 
 
 **Figure 3**
 
